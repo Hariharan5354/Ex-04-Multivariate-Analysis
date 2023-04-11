@@ -96,11 +96,19 @@ Checking and cleaning of null values
 
 ![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/04.jpg)
 
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/05.jpg)
+
 Data types
+
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/06.jpg)
 
 Scatterplot
 
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/07.jpg)
+
 Barplot
+
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/02.jpg)
 
 Correlation coefficient interpretation
 
