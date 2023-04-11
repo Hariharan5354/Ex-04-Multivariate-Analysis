@@ -28,3 +28,76 @@ STEP 8 Save the final data set into the file.
 ```
 
 
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+from google.colab import files
+uploaded = files.upload()
+df = pd.read_csv("SuperStore.csv")
+df
+
+df.info()
+
+df.describe()
+
+df.isnull().sum()
+
+df['Sales'] = df["Sales"].fillna(df['Sales'].mode()[0])
+df.isnull().sum()
+
+df.dtypes
+
+sns.scatterplot(df['Sales'])
+states=df.loc[:,["State","Sales"]]
+states=states.groupby(by=["State"]).sum().sort_values(by="Sales")
+plt.figure(figsize=(17,7))
+
+sns.barplot(x=states.index,y="Sales",data=states)
+df.info()
+
+states=df.loc[:,["Postal Code","Sales"]]
+states=states.groupby(by=["Postal Code"]).sum().sort_values(by="Sales")
+sns.barplot(x=states.index,y="Sales",data=states)
+plt.xticks(rotation = 90)
+plt.xlabel=("Postal Code")
+plt.ylabel=("SALES")
+plt.show()
+
+states=df.loc[:,["Segment","Sales"]]
+states=states.groupby(by=["Segment"]).sum().sort_values(by="Sales")
+sns.barplot(x=states.index,y="Sales",data=states)
+plt.xticks(rotation = 90)
+plt.xlabel=("Segment")
+plt.ylabel=("Sales")
+plt.show()
+
+df.corr()
+
+sns.heatmap(df.corr(),annot=True)
+
+```
+
+# Output:
+
+Dataset
+
+Dataset information
+
+Data describe
+
+Checking and cleaning of null values
+
+Data types
+
+Scatterplot
+
+Barplot
+
+Correlation coefficient interpretation
+
+Heatmap
+
+# Result:
+Thus we have read the given data and performed the multivariate analysis with different types of plots.
+
