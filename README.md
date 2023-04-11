@@ -82,11 +82,19 @@ sns.heatmap(df.corr(),annot=True)
 
 Dataset
 
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/01.jpg)
+
 Dataset information
+
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/02.jpg)
 
 Data describe
 
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/03.jpg)
+
 Checking and cleaning of null values
+
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/04.jpg)
 
 Data types
 
