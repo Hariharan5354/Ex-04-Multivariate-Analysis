@@ -108,11 +108,19 @@ Scatterplot
 
 Barplot
 
-![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/02.jpg)
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/08.jpg)
+
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/09.jpg)
+
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/10.jpg)
 
 Correlation coefficient interpretation
 
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/11.jpg)
+
 Heatmap
+
+![](https://github.com/Hariharan5354/Ex-04-Multivariate-Analysis/blob/main/12.jpg)
 
 # Result:
 Thus we have read the given data and performed the multivariate analysis with different types of plots.
